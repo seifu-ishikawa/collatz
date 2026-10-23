@@ -2,12 +2,8 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in collatz.gemspec
+# Gemの開発時には .gemspec の依存関係を読み込みます
 gemspec
 
-gem "irb"
-gem "rake", "~> 13.0"
-
-gem "rspec", "~> 3.0"
-
-gem "rubocop", "~> 1.21"
+# 指定の unicode_plot を追加
+gem "unicode_plot", "0.0.4"
