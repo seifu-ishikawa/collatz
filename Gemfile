@@ -6,4 +6,4 @@ source "https://rubygems.org"
 gemspec
 
 # 指定の unicode_plot を追加
-gem "unicode_plot", "0.0.4"
+gem "unicode_plot", "0.0.5"
